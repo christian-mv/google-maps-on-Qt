@@ -1,5 +1,5 @@
 # googlemaps-on-qml
-This repo shows how to add google maps to your Qt/Qml app. 
+This repo shows how to add a customed google-maps plugin to your Qt/Qml app without using any web viewer. 
 
 ![demostration gif](https://github.com/christian-mv/googlemaps-on-qml/blob/main/google-maps-qml-gif.gif?raw=true)
 
