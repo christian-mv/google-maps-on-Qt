@@ -28,7 +28,6 @@ Window {
     height: 480
     visible: true
 
-
     Plugin {
         id: myPlugin
         name:"googlemaps"
@@ -45,10 +44,8 @@ Window {
 
         Component.onCompleted:{
             let mapLayers = [];
-            for(var i=0; i<map.supportedMapTypes.length; i++){
-                console.log(i, map.supportedMapTypes[i].name)
+            for(var i=0; i<map.supportedMapTypes.length; i++)
                 mapLayers.push( {"name": map.supportedMapTypes[i].name, "value":map.supportedMapTypes[i]} );
-            }
 
             _comboBox.model = mapLayers;
         }
