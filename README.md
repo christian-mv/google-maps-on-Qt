@@ -6,7 +6,7 @@ and a third party [repository](https://github.com/vladest/googlemaps):
 
 1 - Get your Goolge API KEY [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-2 - Clone the third-party repository [here](https://github.com/vladest/googlemaps)
+2 - Clone the googlemaps third-party repository from [here](https://github.com/vladest/googlemaps)
 
 Please compile the source code in both debug and release mode. 
 Then copy the compiled binaries into the appropriate Qt plugin folders which in windows might be something like this: 
