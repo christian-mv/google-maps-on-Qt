@@ -1,6 +1,8 @@
 # googlemaps-on-qml
 This repo shows how to add google maps to your Qt/Qml app. 
 
+![demostration gif](https://github.com/christian-mv/googlemaps-on-qml/blob/main/google-maps-qml-gif.gif?raw=true)
+
 For this tutorial you need both a [google API KEY](https://developers.google.com/maps/documentation/javascript/get-api-key) 
 and a third party [repository](https://github.com/vladest/googlemaps):
 
